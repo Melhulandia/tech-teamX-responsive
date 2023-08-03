@@ -1,0 +1,268 @@
+body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+/*HEADER-----------*/
+.navbar-collapse {
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar {
+    box-shadow: 0px 6px 12px 0px #18B9EC;
+}
+.text-green{
+    color: rgb(15, 169, 15) !important;
+}
+.card-superpuesta img{
+    filter: brightness(60%);
+}
+.card-img-overlay {
+    padding-top: 20% !important;
+    /* 
+    padding-right: 8.5rem !important;
+    padding-top: 20% !important;
+    padding-left: 48% !important;
+    height: max-content;
+    */
+}
+.card-titulo {
+    font-size: 2rem;
+}
+.card-titulo, .textoInicio {
+    color: white;
+    padding-left: 15px;
+}
+.textoInicio {
+    font-size: 1.12rem;
+    padding-top: 1rem;
+}
+.botones{
+    padding: 15px;
+}
+/*SECTION "INFO"----INICIO*/
+.btn-success{
+    background: #0e970e !important;
+}
+.sectionContacto div{
+    font-size: 13px;
+    text-align: center;
+}
+.sectionContacto {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+#info{
+    margin: 30px;
+    padding: 0% 0% 0% 5%;
+    font-size: large;
+}/*
+.img-carousel1 img{
+    width: 610px!important;
+    height: 540px!important;
+}*/
+#vermasdiv {
+    display:none;
+}
+/*Fin de Inicio*/
+/*analisis de datos-------*/
+#iframe_graficos{
+    width: 800px; border: 0;/*stylo en linea borrado*/
+    height: 600px;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+.info-DB{
+    margin-left: 20%; margin-top: 30px; margin-bottom: 30px;/*styleinline*/
+}
+/*------------------------*/
+/*PAGE------EQUIPO*/
+.box__card {
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 5% !important;
+    width: 1750px;
+}
+.sectionContacto{
+    margin-top: 5%;
+}
+.card-text {
+    font-size: 20x;
+}
+.card-body{
+    height:60vh;
+}
+.card:hover{
+    box-shadow: 6px 6px 40px 10px #18B9EC;
+}
+/*analisis de datos----------------------------*/
+/*
+.analisis-text {
+    font-size: 14px;
+    color: white;
+}
+*/
+.analisis-text .btn {
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+/*FORMULARIO--------- acordion de Consultas*/
+.pases-acc strong {
+    font-weight: bold;
+    color: #006400;
+  }
+/*--------form--contactanos----------------*/
+.titulo-registro{
+    margin-left:10px;
+}
+.titulo-contacto{
+    font-size: 14px; /*20px!important;*/
+}
+/*.parrafo-form{
+    font-size: 13px;
+}*/
+#formulario{
+    background-image: url(../assets/img/fondo_form.png);
+}
+#section-form{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.formulario{
+    padding-top: 5px;
+    margin: 0 auto;
+    width: 50%; 
+    /* width: 60%;
+    padding-bottom: 150px;
+}*/
+}
+.texto-area{
+    font-size: 12px;
+    resize: none!important;
+}
+.formulario button {
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    background-color: #7fc33b !important;
+    color: whitesmoke;
+}
+/*Comprar Tickets---------------------*/
+#cantidad::-webkit-inner-spin-button,
+#cantidad::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#cantidad {
+  appearance: none;
+  -moz-appearance: textfield;
+}
+.img-estaciones{
+    display: flex;
+    width: 68%;
+    margin-left: 16%;
+    margin-bottom: 20px;
+}
+#text-imagen{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*------------------------------------*/
+/*
+.page__footer{
+    background-image: linear-gradient(to right, #1a4169,
+    #0a4674, #064e74, #1a5c8a, #085fab); 
+/*FOOTER-----------------------------*/
+footer {
+    padding-top: 5%;
+}
+#pie-de-pagina {
+    display: flex;
+    background-image: url(../assets/img/footer_img.png);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    padding-left: 10%;
+}
+#pie-de-pagina a{
+    text-decoration: none;}
+.icon{
+    color: #28bd46;
+    font-size: 5rem;
+    position:fixed;
+    bottom:15px;
+    right: 15px;
+}
+/*------------------------/*
+/*CELULAR*/
+@media screen and (max-width: 769px) { 
+    /*INICIO-----------------*/
+#inicio .img-inicio{
+        min-height: 450px !important;
+        }
+        .card-titulo{
+            text-align: center!important;
+            padding-top: 15%;
+            font-size:large !important;
+        }
+    .textoInicio {
+        font-size:small;
+    } 
+    #info {
+        margin: 0; 
+        padding: 5%;
+        padding-bottom: 5%;
+    }
+    .botones{
+        height: 70px;
+        margin-bottom: 40px;
+        font-size: small;
+    }
+    /*Footer*/
+    footer {
+        padding-top: 15%;
+    }
+    /*----------------------------------*/
+/*Equipo--------------------------------*/
+.box__card {
+    margin-top: 20px;
+    padding: 1rem 2rem;
+}
+.box__card {
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 5% !important;
+    width: auto;
+}
+    /*-----------------------------------*/
+}
+/*tablet*/
+@media screen and (max-width: 1024px) {
+    /*iNICIO---------------------*/
+        .img-inicio{
+            min-height: 80px !important;
+            }
+            #info{
+                font-size: 15px;
+            }
+    /*Equipo--------------------------------*/
+.box__card {
+    margin-top: 20px;
+    padding: 1rem 2rem;
+}
+.box__card {
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 5% !important;
+    width: auto;
+    height: auto;
+}
+    /*-----------------------------------*/
+    }
+    /*portatil 4K*/
+    @media screen and (max-width: 2560) {
+    }
